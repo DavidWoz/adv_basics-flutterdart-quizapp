@@ -1,6 +1,20 @@
 {
     "editor.semanticHighlighting.enabled": true,
     "editor.inlineSuggest.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.colorDecorators": false,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "dart.previewFlutterUiGuides": false,
+    "dart.enableSdkFormatter": false,
+
+    "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+},
+
+"editor.suggestOnTriggerCharacters": false,
 
     "editor.semanticTokenColorCustomizations": {
         "rules": {
