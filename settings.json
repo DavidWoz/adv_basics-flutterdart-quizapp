@@ -1,0 +1,103 @@
+{
+    "editor.semanticHighlighting.enabled": true,
+    "editor.inlineSuggest.enabled": false,
+
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "keyword": "#CC7832",
+            "keyword.control": "#CC7832",
+            "property": "#9fcdbb",
+            "variable": "#9fcdbb",
+            "parameter": "#909eae",
+             "property.annotation": "#fff200",
+            "variable.declaration.member": "#9876AA",
+            "property.static": "#b076cf",
+            "property.static.readonly": "#fc0e06",
+            "enumMember": "#60EFFF"
+        }
+    },
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword",
+          "storage.type",
+          "storage.modifier"
+        ],
+        "settings": {
+          "foreground": "#CC7832"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function",
+          "support.function",
+          "meta.function-call"
+        ],
+        "settings": {
+          "foreground": "#00acf5"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type",
+          "entity.name.class",
+          "support.class",
+          "support.type"
+        ],
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "scope": [
+          "variable",
+          "variable.other",
+          "variable.parameter"
+        ],
+        "settings": {
+          "foreground": "#cbf305"
+        }
+      },
+      {
+        "scope": [
+          "string",
+          "constant.character"
+        ],
+        "settings": {
+          "foreground": "#7EE787"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric",
+          "constant.language",
+          "constant.other"
+        ],
+        "settings": {
+          "foreground": "#60A5FA"
+        }
+      },
+      {
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "foreground": "#6B7280",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  }
+}
