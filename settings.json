@@ -7,9 +7,10 @@
     "dart.showInspectorNotificationsForWidgetErrors": false,
     "dart.previewFlutterUiGuides": false,
     "dart.enableSdkFormatter": false,
+    "dart.enableSnippets": false,
 
     "editor.quickSuggestions": {
-    "other": "off",
+    "other": "on",
     "comments": "off",
     "strings": "off"
 },
